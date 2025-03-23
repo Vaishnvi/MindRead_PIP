@@ -1,6 +1,6 @@
 # MindRead
 
-## Can Reasons Help Improve Pedestrian Intent Estimation? A Cross-Modal Approach
+# Can Reasons Help Improve Pedestrian Intent Estimation? A Cross-Modal Approach
 
 ### 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 
