@@ -1,4 +1,4 @@
-# MindRead_PIP
+# MindRead
 
 ## Can Reasons Help Improve Pedestrian Intent Estimation? A Cross-Modal Approach
 
