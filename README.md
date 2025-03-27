@@ -18,13 +18,13 @@
 
 ## Abstract
 
-![Intro](https://github.com/Vaishnvi/MindRead_PIP/blob/main/intro.png)
+![Intro](https://github.com/Vaishnvi/MindRead_PIP/blob/main/media/intro.png)
 
 With the increased importance of autonomous navigation systems has come an increasing need to protect the safety of Vulnerable Road Users (VRUs) such as pedestrians. Predicting pedestrian intent is one such challenging task, where prior work predicts the binary cross/no-cross intention with a fusion of visual and motion features. However, there has been no effort so far to hedge such predictions with human-understandable reasons. We address this issue by introducing a novel problem setting of exploring the intuitive reasoning behind a pedestrian’s intent. In particular, we show that predicting the ‘WHY’ can be very useful in understanding the ‘WHAT’. To this end, we propose a novel, reason-enriched PIE++ dataset consisting of multi-label textual explanations/reasons for pedestrian intent. We also introduce a novel multi-task learning framework called MINDREAD, which leverages a cross-modal representation learning framework for predicting pedestrian intent as well as the reason behind the intent. Our comprehensive experiments show significant improvement of 5.6% and 7% in accuracy and F1-score for the task of intent prediction on the PIE++ dataset using MINDREAD. We also achieved a 4.4% improvement in accuracy on a commonly used JAAD dataset. Extensive evaluation using quantitative/qualitative metrics and user studies shows the effectiveness of our approach.
 
 ## PIE++ Dataset
 
-![Intro](https://github.com/Vaishnvi/MindRead_PIP/blob/main/DatasetSamples.png) 
+![Intro](https://github.com/Vaishnvi/MindRead_PIP/blob/main/media/DatasetSamples.png) 
 
 Our PIE++ dataset is the first pedestrian reason+intent prediction dataset. PIE++ consists of human-referenced, multi-label explanation annotations for all the 1842 pedestrians. For pedestrians that: (i) have no crossing intention, there could be reasons such as “Pedestrians are just doing their work” or “Two pedestrians just interacting with each other on the road-side”; and (ii) have crossing intention, reasons could include “Pedestrian acknowledges the ego-car to stop/slow-down with a hand-ack gesture since the pedestrian is intending to cross”. Our list of reasons indicate that it is possible for more than one reason to be relevant for a given pedestrian’s intent in a scene. We hence provide multi-label annotations for every pedestrian for their crossing vs no-crossing intent. 
 
